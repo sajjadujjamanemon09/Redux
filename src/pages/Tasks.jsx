@@ -4,7 +4,8 @@ import TaskCard from '../components/tasks/TaskCard';
 import AddTaskModal from '../components/tasks/AddTaskModal';
 import { useState } from 'react';
 import MenuDropdown from '../components/ui/MenuDropdown';
-import { useGetTasksQuery } from '../redux/features/api/baseApi';
+import { useGetTasksQuery } from '../redux/features/tasks/tasksApi';
+
 
 
 const Tasks = () => {
